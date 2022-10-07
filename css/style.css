@@ -1,6 +1,7 @@
 @media screen and (min-width: 320px) and (max-width: 768px){
     body {
-        background-color: lightgray;
+        background-color: #f0f0f0;
+        font-family: 'Anton', sans-serif;
     }
 
     .navbar-brand {
@@ -16,5 +17,60 @@
         background-color: #00aaa9;
         color: white;
     }
+
+                        .circles {
+                            width: 7em;
+                            height: 7em;
+                            line-height: 6em;
+                            border-radius: 50%;
+                            font-size: 12px;
+                            text-align: center;
+                            border: solid 4px black;
+                            color: white;
+
+                        }
+                        .badge1{
+                            background-color: #e6563b;
+                        }
+                        .badge2{
+                            background-color: #eb9d3a;
+                        }
+                        .badge3{
+                            background-color: #7cb06c;
+                        }
+                        .badge4{
+                            background-color: #00aba9;
+                        }
+                        .flex-container{
+                            display: flex;
+                            justify-content: center;
+                            justify-content: space-around;
+                            flex-wrap: wrap;
+                            /*align-items: flex-start;*/
+                            align-content: space-between;
+                        }
+
+
+
+    .main-header {
+
+        text-align: center;
+        /*margin-top: 2em;*/
+        margin: 1.5em;
+    }
+    /*  possible style for spacing in main-header div 👇👇👇*/
+        /*.main-header>h3 {*/
+
+        /*   margin: 1.5em;*/
+        /*}*/
+    /*  possible style for spacing in main-header div 👆👆👆*/
+
+
+    .navbar{
+        background-color: #f0f0f0;
+    }
+
+
+
 
 }
