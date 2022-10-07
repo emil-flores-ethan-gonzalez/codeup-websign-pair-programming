@@ -1,0 +1,20 @@
+@media screen and (min-width: 320px) and (max-width: 768px){
+    body {
+        background-color: lightgray;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    /*check the size of the icon/logo, has to be 105px */
+    .bi {
+        border: solid #068376;
+        border-radius: 50%;
+        width: 37px;
+        height: 37px;
+        background-color: #00aaa9;
+        color: white;
+    }
+
+}
