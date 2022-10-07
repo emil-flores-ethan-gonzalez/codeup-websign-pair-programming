@@ -1,6 +1,7 @@
 @media screen and (min-width: 320px) and (max-width: 768px){
     body {
-        background-color: lightgray;
+        background-color: #f0f0f0;
+        font-family: 'Anton', sans-serif;
     }
 
     .navbar-brand {
@@ -16,5 +17,21 @@
         background-color: #00aaa9;
         color: white;
     }
+    .main-header {
 
+        text-align: center;
+        /*margin-top: 2em;*/
+        margin: 1.5em;
+    }
+    /*  possible style for spacing in main-header div 👇👇👇*/
+        /*.main-header>h3 {*/
+
+        /*   margin: 1.5em;*/
+        /*}*/
+    /*  possible style for spacing in main-header div 👆👆👆*/
+
+
+    .navbar{
+        background-color: #f0f0f0;
+    }
 }
