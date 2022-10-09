@@ -28,6 +28,10 @@
                             text-align: center;
                             border: solid 4px black;
                             color: white;
+                           margin-left: 5em;
+                            display: flex;
+                            flex-direction: column;
+                            flex-wrap: wrap;
 
                         }
                         .badge1{
@@ -50,6 +54,82 @@
                             /*align-items: flex-start;*/
                             align-content: space-between;
                         }
+                        .badge1, .badge2 {
+                            grid-column: 1/2 ;
+
+                        }
+                        .badge3, .badge4 {
+                            grid-column: 3/4 ;
+
+                        }
+                        P {
+
+                            display: flex;
+                            justify-content: center;
+                            color: #66696b;
+                            font-family: 'Abel', sans-serif;
+                            font-size: 10px;
+
+                        }
+                        /*.random-pictures{*/
+                        /*    background-image: url("img-css/green-apple-laptop.png");*/
+                        /*    background-size: cover;*/
+                        /*}*/
+                        /*            img{*/
+                        /*                object-fit: cover;*/
+                        /*                height: 17em ;*/
+                        /*                width: 17em;*/
+                        /*                margin: 2em;*/
+                        /*            }*/
+                                        .random-pictures{
+                                            width:90vw;
+                                            height:80vh;
+                                            margin: auto;
+
+
+                                        }
+                                        img {
+                                            max-width:100%;
+                                            height:auto;
+                                            max-height:100%;
+                                            border: solid 6px #e6e6e6;
+
+                                        }
+
+                                        .alternitive-p {
+
+                                            display: flex;
+                                            justify-content: left;
+                                            color: #66696b;
+                                            font-family: 'Abel', sans-serif;
+                                            font-size: 10px;
+                                            margin-right: 30px;
+                                           flex-grow: 3;
+
+
+
+
+                                        }
+                                        .rounded-pill {
+                                            display: flex;
+                                            color: black;
+
+                                        }
+                                        .pill1{
+                                            background-color: #e6563b;
+
+
+
+                                        }
+                                        .pill2{
+                                            background-color: #eb9d3a;
+                                        }
+                                        .pill3{
+                                            background-color: #7cb06c;
+                                        }
+                                        .pill4{
+                                            background-color: #00aba9;
+                                        }
 
 
 
@@ -59,12 +139,6 @@
         /*margin-top: 2em;*/
         margin: 1.5em;
     }
-    /*  possible style for spacing in main-header div 👇👇👇*/
-        /*.main-header>h3 {*/
-
-        /*   margin: 1.5em;*/
-        /*}*/
-    /*  possible style for spacing in main-header div 👆👆👆*/
 
 
     .navbar{
