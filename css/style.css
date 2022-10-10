@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 1024px) {
     body {
         background-color: #f0f0f0;
         font-family: 'Anton', sans-serif;
@@ -190,10 +190,9 @@
     h3 {
         font-size: 2em;
     }
+
     /* end of main title begins ⛩⛩⛩⛩⛩⛩⛩⛩*/
-
-/* the begging of the circles 🟣🟣🟣🟣 */
-
+    /* the begging of the circles 🟣🟣🟣🟣 */
     .flex-container {
         display: flex;
         flex-wrap: wrap;
@@ -212,13 +211,13 @@
 
     .line-1 {
         height: 1px;
-        margin-bottom: 2em ;
+        margin-bottom: 2em;
         width: 80%;
         margin-left: 5em;
         background-color: #e6e6e6;
     }
-    /* the begging of the circles 🟣🟣🟣🟣 */
 
+    /* the begging of the circles 🟣🟣🟣🟣 */
     P {
         display: flex;
         justify-content: center;
@@ -245,7 +244,7 @@
 
 
     img {
-        width:  18em;
+        width: 18em;
         height: auto;
     }
 
@@ -255,8 +254,107 @@
     }
 
     .sec {
-        width:  18.4em;
+        width: 18.4em;
         height: auto;
     }
+
     /*end of pictures   🖼🖼🖼🖼🖼🖼🖼*/
+
 }
+
+
+    @media screen and (min-width: 1024px) {
+        body {
+            background-color: #b65eff;
+        }
+
+        .s-pic{
+            width: 4em;
+            height: auto;
+        }
+        .sidebar{
+            font-size: 5px;
+            margin-left: 6em;
+            margin-right: 8em;
+
+        }
+        .big-screen{
+            display: flex;
+            justify-content: center;
+            justify-content: space-evenly;
+
+        }
+        .random-pictures{
+            margin-left: 4em;
+            margin-top: 1em;
+        }
+        .li1{
+            margin-right: 20em;
+        }
+        .pill1 {
+            background-color: #e6563b;
+            margin-left: 12vw;
+        }
+        .sec {
+            width: 18em;
+            height: auto;
+            margin-right: 20em;
+        }
+        .sidebar1{
+            display:flex;
+            justify-content: space-evenly ;
+
+        }
+
+        .s-pic1{
+            float: left;
+            margin-right: 2em;
+        }
+        .s-pic2{
+            float: left;
+            margin-right: 2em;
+        }
+        .s-pic3{
+            float: left;
+            width: 90px;
+            height: 70px;
+            margin-right: 10px;
+        }
+        .lt{
+            margin-top: 5em;
+            display: flex;
+            margin-right: 11em;
+            margin-bottom: 8px;
+
+        }
+
+        .lastSpan{
+            margin-left: 30em;
+        }
+        .lastP{
+            margin-left: 25em;
+            margin-right: 10em;
+
+        }
+        .badge1 {
+            margin-left: 280px;
+        }
+
+        .badge4 {
+            margin-right: 280px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
