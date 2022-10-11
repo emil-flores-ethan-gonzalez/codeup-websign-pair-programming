@@ -1,17 +1,14 @@
-
-
-@media screen and (min-width: 320px) and (max-width: 1020px){
-    .sidebar {
-        display: none;
-    }
-}
-
-/* screen size: MOBILE S-320 on chrome inspection*/
-@media screen and (min-width: 320px) and (max-width: 2560px) {
+/*@media screen and (min-width: 320px) and (max-width: 2560px) {*/
     body {
         background-color: #f0f0f0;
         font-family: 'Anton', sans-serif;
     }
+.sidebar {
+    display: none;
+}
+.lastSpan{
+    display:none;
+}
 
 
     hr {
@@ -53,51 +50,52 @@
         font-family: 'Anton', sans-serif;
     }
 
-    .first2 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+    /*.first2 {*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*    justify-content: center;*/
 
 
-    }
+    /*}*/
 
-    .second2 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+    /*.second2 {*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*    justify-content: center;*/
 
-    }
+    /*}*/
 
     .badge1 {
         background-color: #e6563b;
-        margin-right: 1em;
+
 
     }
 
     .badge2 {
         background-color: #eb9d3a;
-        margin-left: 1em;
+
     }
 
     .badge3 {
         background-color: #7cb06c;
-        margin-right: 1em;
+
     }
 
     .badge4 {
         background-color: #00aba9;
-        margin-left: 1em;
+
 
     }
     /*END OF CIRCLES⭕️ */
 
-    P {
-        display: flex;
-        justify-content: center;
-        color: #66696b;
-        font-family: 'Abel', sans-serif;
-        font-size: 10px;
-    }
+    /* make this <p> specific👇*/
+    /*p {*/
+    /*    !*display: flex;*!*/
+    /*    !*justify-content: center;*!*/
+    /*    color: #66696b;*/
+    /*    font-family: 'Abel', sans-serif;*/
+    /*    font-size: 10px;*/
+    /*}*/
 
     .random-pictures {
         width: 90vw;
@@ -113,8 +111,9 @@
     }
 
     .alt-p {
-        display: flex;
-        justify-content: left;
+        /*display: flex;*/
+        /*justify-content: left;*/
+
         color: #66696b;
         font-family: 'Abel', sans-serif;
         font-size: 10px;
@@ -123,7 +122,7 @@
 
     /*ICONS FOR PICTURES🟢*/
     .rounded-pill {
-        display: flex;
+        /*display: flex;*/
         color: black;
         font-family: 'Anton', sans-serif;
 
@@ -131,327 +130,486 @@
 
     .pill1 {
         background-color: #e6563b;
-        margin-left: 35vw;
+
     }
 
     .pill2 {
         background-color: #eb9d3a;
-        margin-left: 0.5em;
+
     }
 
     .pill3 {
         background-color: #7cb06c;
-        margin-left: 0.5em;
+
     }
 
     .pill4 {
         background-color: #00aba9;
-        margin-left: 0.5em;
+
     }
     /*END OF ICONS FOR PICTURES🟢*/
+@media screen and (min-width: 600px) {
+
+    .lastSpan{
+        display:none;
+    }
 
 }
 
-/* screen size:MOBILE M-375, on chrome inspection*/
-@media screen and (min-width: 375px) {
-    body {
-        background-color: #628c5d;
-    }
-
-    .pill1 {
-        background-color: #e6563b;
-        margin-left: 45vw;
-    }
-}
-
-/*MOBILE LARGE*/
-@media screen and (min-width: 425px) {
-    body {
-        background-color: #a88279;
-    }
-
-    .pill1 {
-        background-color: #e6563b;
-        margin-left: 50vw;
-    }
-}
-
-
-/* screen size:TABLET- 768, on chrome inspection*/
-@media screen and (min-width: 768px) {
-    body {
-        background-color: #9dd7bf;
-    }
-
-
-    /*main title begins ⛩⛩⛩⛩⛩⛩⛩⛩*/
-    .main-header {
-        text-align: center;
-        margin: 0.5em;
-
-    }
-
-    h1 {
-        margin-top: 1em;
-        font-size: 4em;
-    }
-
-    h3 {
-        font-size: 2em;
-    }
-
-    /* end of main title begins ⛩⛩⛩⛩⛩⛩⛩⛩*/
-    /* the begging of the circles 🟣🟣🟣🟣 */
-    .flex-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        margin-top: 3em;
-        margin-bottom: 3em;
-    }
-
-    .badge1 {
-        margin-left: 150px;
-    }
-
-    .badge4 {
-        margin-right: 150px;
-    }
-
-    .line-1 {
-        height: 1px;
-        margin-bottom: 2em;
-        width: 80%;
-        margin-left: 5em;
-        background-color: #e6e6e6;
-    }
-
-    /* the begging of the circles 🟣🟣🟣🟣 */
-    P {
-        display: flex;
-        justify-content: center;
-        color: #66696b;
-        font-family: 'Abel', sans-serif;
-        font-size: 13px;
-
-    }
-
-    /*pictures   🖼🖼🖼🖼🖼🖼🖼*/
-    .first2img {
-        display: flex;
-        justify-content: center;
-        justify-content: space-evenly;
-        margin-top: 2em;
-
-    }
-
-    .second2img {
-        display: flex;
-        justify-content: center;
-        justify-content: space-evenly;
-    }
-
-
-    img {
-        width: 18em;
-        height: auto;
-    }
-
-    .pill1 {
-        background-color: #e6563b;
-        margin-left: 16vw;
-    }
-
-    .sec {
-        width: 18.4em;
-        height: auto;
-    }
-
-    /*end of pictures   🖼🖼🖼🖼🖼🖼🖼*/
-
-}
-
-/* screen size:LAPTOP M-1024, on chrome inspection*/
-    @media screen and (min-width: 1024px) {
-        body {
-            background-color: #b65eff;
-        }
-
-
-        .sidebar{
-            font-size: 5px;
-            margin-left: 6em;
-            margin-right: 8em;
-
-        }
-        .big-screen{
-            display: flex;
-            justify-content: center;
-            justify-content: space-evenly;
-
-        }
-        .random-pictures{
-            margin-left: 4em;
-            margin-top: 1em;
-        }
-        .li1{
-            margin-right: 20em;
-        }
-        .pill1 {
-            background-color: #e6563b;
-            margin-left: 12vw;
-        }
-        .sec {
-            width: 18em;
-            height: auto;
-            margin-right: 20em;
-        }
-        .sidebar1{
-            display:flex;
-            justify-content: space-evenly ;
-
-        }
-
-        .s-pic1{
-            float: left;
-            margin-right: 2em;
-        }
-        .s-pic2{
-            float: left;
-            margin-right: 2em;
-        }
-        .s-pic3{
-            float: left;
-            width: 90px;
-            height: 70px;
-            margin-right: 10px;
-        }
-        .lt{
-            margin-top: 5em;
-            display: flex;
-            margin-right: 11em;
-            margin-bottom: 8px;
-
-        }
-
-        .lastSpan{
-            margin-left: 30em;
-        }
-        .lastP{
-            margin-left: 25em;
-            margin-right: 10em;
-
-        }
-        .badge1 {
-            margin-left: 280px;
-        }
-
-        .badge4 {
-            margin-right: 280px;
-        }
-
-
-
-
-        /* screen size:LAPTOP L-1440, on chrome inspection*/
-        @media screen and (min-width: 1440px) and (max-width: 2560px)  {
-            body {
-                background-color: #ec88cc;
-            }
-
-            .sidebar {
-                font-size: 5px;
-                margin-left: 10em;
-                margin-right: 70em;
-                margin-top: 5em;
-            }
-
-            .minibar {
-                width: 20em;
-                height: auto;
-                margin-bottom: 50px;
-            }
-
-            .big-screen {
-                display: flex;
-                justify-content: center;
-                justify-content: space-evenly;
-
-            }
-
-            .random-pictures {
-                margin-left: 20em;
-                margin-top: 1em;
-            }
-
-            .li1 {
-                margin-right: 20em;
-            }
-
-            .pill1 {
-                background-color: #e6563b;
-                margin-left: 8vw;
-
-            }
-
-            .sec {
-                width: 18em;
-                height: auto;
-                margin-right: 20em;
-            }
-
-
-            .s-pic1 {
-                float: left;
-                margin-right: 2em;
-
-            }
-
-            .s-pic2 {
-                float: left;
-                margin-right: 2em;
-
-
-            }
-
-            .last-title {
-                margin-top: 3.5em;
-            }
-
-            .s-pic3 {
-                float: left;
-                margin-right: 2em;
-            }
-
-            .lt {
-                margin-top: 5em;
-                display: flex;
-                margin-right: 24.5em;
-                margin-bottom: 8px;
-
-            }
-
-            .lastSpan {
-                margin-left: 30em;
-            }
-
-            .lastP {
-                margin-left: 25em;
-                margin-right: 10em;
-
-            }
-
-            .badge1 {
-                margin-left: 500px;
-            }
-
-            .badge4 {
-                margin-right: 500px;
-            }
-
-
-        }
-
-
-
-    }
+/*}*/
+
+/*@media screen and (min-width: 320px) and (max-width: 1020px){*/
+/*    .sidebar {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
+
+/* screen size: MOBILE S-320 on chrome inspection*/
+/*@media screen and (min-width: 320px) and (max-width: 2560px) {*/
+/*    body {*/
+/*        background-color: #f0f0f0;*/
+/*        font-family: 'Anton', sans-serif;*/
+/*    }*/
+
+
+/*    hr {*/
+/*        display: none;*/
+/*    }*/
+/*    .main-header {*/
+/*        text-align: center;*/
+/*        margin: 1.5em;*/
+/*    }*/
+
+/*    .navbar {*/
+/*        background-color: #f0f0f0;*/
+/*    }*/
+
+/*    .navbar-brand {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .bi {*/
+/*        border: solid #068376;*/
+/*        border-radius: 50%;*/
+/*        width: 40px;*/
+/*        height: 40px;*/
+/*        background-color: #00aaa9;*/
+/*        color: white;*/
+/*        padding: 5px;*/
+/*    }*/
+
+/*    !*CIRCLES⭕*!*/
+/*    .circles {*/
+/*        width: 6.7em;*/
+/*        height: 6.7em;*/
+/*        line-height: 6em;*/
+/*        border-radius: 50%;*/
+/*        font-size: 12px;*/
+/*        text-align: center;*/
+/*        border: solid 5px white;*/
+/*        color: white;*/
+/*        font-family: 'Anton', sans-serif;*/
+/*    }*/
+
+/*    .first2 {*/
+/*        display: flex;*/
+/*        flex-wrap: wrap;*/
+/*        justify-content: center;*/
+
+
+/*    }*/
+
+/*    .second2 {*/
+/*        display: flex;*/
+/*        flex-wrap: wrap;*/
+/*        justify-content: center;*/
+
+/*    }*/
+
+/*    .badge1 {*/
+/*        background-color: #e6563b;*/
+/*        margin-right: 1em;*/
+
+/*    }*/
+
+/*    .badge2 {*/
+/*        background-color: #eb9d3a;*/
+/*        margin-left: 1em;*/
+/*    }*/
+
+/*    .badge3 {*/
+/*        background-color: #7cb06c;*/
+/*        margin-right: 1em;*/
+/*    }*/
+
+/*    .badge4 {*/
+/*        background-color: #00aba9;*/
+/*        margin-left: 1em;*/
+
+/*    }*/
+/*    !*END OF CIRCLES⭕️ *!*/
+
+/*    P {*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        color: #66696b;*/
+/*        font-family: 'Abel', sans-serif;*/
+/*        font-size: 10px;*/
+/*    }*/
+
+/*    .random-pictures {*/
+/*        width: 90vw;*/
+/*        height: 80vh;*/
+/*        margin: auto;*/
+/*    }*/
+
+/*    img {*/
+/*        max-width: 100%;*/
+/*        max-height: 100%;*/
+/*        border: solid 6px #e6e6e6;*/
+
+/*    }*/
+
+/*    .alt-p {*/
+/*        display: flex;*/
+/*        justify-content: left;*/
+/*        color: #66696b;*/
+/*        font-family: 'Abel', sans-serif;*/
+/*        font-size: 10px;*/
+/*    }*/
+
+
+/*    !*ICONS FOR PICTURES🟢*!*/
+/*    .rounded-pill {*/
+/*        display: flex;*/
+/*        color: black;*/
+/*        font-family: 'Anton', sans-serif;*/
+
+/*    }*/
+
+/*    .pill1 {*/
+/*        background-color: #e6563b;*/
+/*        margin-left: 35vw;*/
+/*    }*/
+
+/*    .pill2 {*/
+/*        background-color: #eb9d3a;*/
+/*        margin-left: 0.5em;*/
+/*    }*/
+
+/*    .pill3 {*/
+/*        background-color: #7cb06c;*/
+/*        margin-left: 0.5em;*/
+/*    }*/
+
+/*    .pill4 {*/
+/*        background-color: #00aba9;*/
+/*        margin-left: 0.5em;*/
+/*    }*/
+/*    !*END OF ICONS FOR PICTURES🟢*!*/
+
+/*}*/
+
+/*!* screen size:MOBILE M-375, on chrome inspection*!*/
+/*@media screen and (min-width: 375px) {*/
+/*    body {*/
+/*        background-color: #628c5d;*/
+/*    }*/
+
+/*    .pill1 {*/
+/*        background-color: #e6563b;*/
+/*        margin-left: 45vw;*/
+/*    }*/
+/*}*/
+
+/*!*MOBILE LARGE*!*/
+/*@media screen and (min-width: 425px) {*/
+/*    body {*/
+/*        background-color: #a88279;*/
+/*    }*/
+
+/*    .pill1 {*/
+/*        background-color: #e6563b;*/
+/*        margin-left: 50vw;*/
+/*    }*/
+/*}*/
+
+
+/*!* screen size:TABLET- 768, on chrome inspection*!*/
+/*@media screen and (min-width: 768px){*/
+/*    body {*/
+/*        background-color: #9dd7bf;*/
+/*    }*/
+
+
+/*    !*main title begins ⛩⛩⛩⛩⛩⛩⛩⛩*!*/
+/*    .main-header {*/
+/*        text-align: center;*/
+/*        margin: 0.5em;*/
+
+/*    }*/
+
+/*    h1 {*/
+/*        margin-top: 1em;*/
+/*        font-size: 4em;*/
+/*    }*/
+
+/*    h3 {*/
+/*        font-size: 2em;*/
+/*    }*/
+
+/*    !* end of main title begins ⛩⛩⛩⛩⛩⛩⛩⛩*!*/
+/*    !* the begging of the circles 🟣🟣🟣🟣 *!*/
+/*    .flex-container {*/
+/*        display: flex;*/
+/*        flex-wrap: wrap;*/
+/*        justify-content: space-evenly;*/
+/*        margin-top: 3em;*/
+/*        margin-bottom: 3em;*/
+/*    }*/
+
+/*    .badge1 {*/
+/*        margin-left: 150px;*/
+/*    }*/
+
+/*    .badge4 {*/
+/*        margin-right: 150px;*/
+/*    }*/
+
+/*    .line-1 {*/
+/*        height: 1px;*/
+/*        margin-bottom: 2em;*/
+/*        width: 80%;*/
+/*        margin-left: 5em;*/
+/*        background-color: #e6e6e6;*/
+/*    }*/
+
+/*    !* the begging of the circles 🟣🟣🟣🟣 *!*/
+/*    P {*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        color: #66696b;*/
+/*        font-family: 'Abel', sans-serif;*/
+/*        font-size: 13px;*/
+
+/*    }*/
+
+/*    !*pictures   🖼🖼🖼🖼🖼🖼🖼*!*/
+/*    .first2img {*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        justify-content: space-evenly;*/
+/*        margin-top: 2em;*/
+
+/*    }*/
+
+/*    .second2img {*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        justify-content: space-evenly;*/
+/*    }*/
+
+
+/*    img {*/
+/*        width: 18em;*/
+/*        height: auto;*/
+/*    }*/
+
+/*    .pill1 {*/
+/*        background-color: #e6563b;*/
+/*        margin-left: 16vw;*/
+/*    }*/
+
+/*    .sec {*/
+/*        width: 18.4em;*/
+/*        height: auto;*/
+/*    }*/
+
+/*    !*end of pictures   🖼🖼🖼🖼🖼🖼🖼*!*/
+
+/*}*/
+
+/*!* screen size:LAPTOP M-1024, on chrome inspection*!*/
+/*    @media screen and (min-width: 1024px) {*/
+/*        body {*/
+/*            background-color: #b65eff;*/
+/*        }*/
+
+
+/*        .sidebar{*/
+/*            font-size: 5px;*/
+/*            margin-left: 6em;*/
+/*            margin-right: 8em;*/
+
+/*        }*/
+/*        .big-screen{*/
+/*            display: flex;*/
+/*            justify-content: center;*/
+/*            justify-content: space-evenly;*/
+
+/*        }*/
+/*        .random-pictures{*/
+/*            margin-left: 4em;*/
+/*            margin-top: 1em;*/
+/*        }*/
+/*        .li1{*/
+/*            margin-right: 20em;*/
+/*        }*/
+/*        .pill1 {*/
+/*            background-color: #e6563b;*/
+/*            margin-left: 12vw;*/
+/*        }*/
+/*        .sec {*/
+/*            width: 18em;*/
+/*            height: auto;*/
+/*            margin-right: 20em;*/
+/*        }*/
+/*        .sidebar1{*/
+/*            display:flex;*/
+/*            justify-content: space-evenly ;*/
+
+/*        }*/
+
+/*        .s-pic1{*/
+/*            float: left;*/
+/*            margin-right: 2em;*/
+/*        }*/
+/*        .s-pic2{*/
+/*            float: left;*/
+/*            margin-right: 2em;*/
+/*        }*/
+/*        .s-pic3{*/
+/*            float: left;*/
+/*            width: 90px;*/
+/*            height: 70px;*/
+/*            margin-right: 10px;*/
+/*        }*/
+/*        .lt{*/
+/*            margin-top: 5em;*/
+/*            display: flex;*/
+/*            margin-right: 11em;*/
+/*            margin-bottom: 8px;*/
+
+/*        }*/
+
+/*        .lastSpan{*/
+/*            margin-left: 30em;*/
+/*        }*/
+/*        .lastP{*/
+/*            margin-left: 25em;*/
+/*            margin-right: 10em;*/
+
+/*        }*/
+/*        .badge1 {*/
+/*            margin-left: 280px;*/
+/*        }*/
+
+/*        .badge4 {*/
+/*            margin-right: 280px;*/
+/*        }*/
+
+
+
+
+/*        !* screen size:LAPTOP L-1440, on chrome inspection*!*/
+/*        @media screen and (min-width: 1440px) and (max-width: 2560px)  {*/
+/*            body {*/
+/*                background-color: #ec88cc;*/
+/*            }*/
+
+/*            .sidebar {*/
+/*                font-size: 5px;*/
+/*                margin-left: 10em;*/
+/*                margin-right: 70em;*/
+/*                margin-top: 5em;*/
+/*            }*/
+
+/*            .minibar {*/
+/*                width: 20em;*/
+/*                height: auto;*/
+/*                margin-bottom: 50px;*/
+/*            }*/
+
+/*            .big-screen {*/
+/*                display: flex;*/
+/*                justify-content: center;*/
+/*                justify-content: space-evenly;*/
+
+/*            }*/
+
+/*            .random-pictures {*/
+/*                margin-left: 20em;*/
+/*                margin-top: 1em;*/
+/*            }*/
+
+/*            .li1 {*/
+/*                margin-right: 20em;*/
+/*            }*/
+
+/*            .pill1 {*/
+/*                background-color: #e6563b;*/
+/*                margin-left: 8vw;*/
+
+/*            }*/
+
+/*            .sec {*/
+/*                width: 18em;*/
+/*                height: auto;*/
+/*                margin-right: 20em;*/
+/*            }*/
+
+
+/*            .s-pic1 {*/
+/*                float: left;*/
+/*                margin-right: 2em;*/
+
+/*            }*/
+
+/*            .s-pic2 {*/
+/*                float: left;*/
+/*                margin-right: 2em;*/
+
+
+/*            }*/
+
+/*            .last-title {*/
+/*                margin-top: 3.5em;*/
+/*            }*/
+
+/*            .s-pic3 {*/
+/*                float: left;*/
+/*                margin-right: 2em;*/
+/*            }*/
+
+/*            .lt {*/
+/*                margin-top: 5em;*/
+/*                display: flex;*/
+/*                margin-right: 24.5em;*/
+/*                margin-bottom: 8px;*/
+
+/*            }*/
+
+/*            .lastSpan {*/
+/*                margin-left: 30em;*/
+/*            }*/
+
+/*            .lastP {*/
+/*                margin-left: 25em;*/
+/*                margin-right: 10em;*/
+
+/*            }*/
+
+/*            .badge1 {*/
+/*                margin-left: 500px;*/
+/*            }*/
+
+/*            .badge4 {*/
+/*                margin-right: 500px;*/
+/*            }*/
+
+
+/*        }*/
+
+
+
+/*    }*/
