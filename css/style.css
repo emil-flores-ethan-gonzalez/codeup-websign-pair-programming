@@ -1,158 +1,506 @@
-/*@media screen and (min-width: 320px) and (max-width: 2560px) {*/
-    body {
-        background-color: #f0f0f0;
-        font-family: 'Anton', sans-serif;
-    }
-.sidebar {
+/*start of page*/
+body {
+    background-color: #f0f0f0;
+    font-family: 'Anton', sans-serif;
+}
+
+
+/*START OF NAVBAR*/
+.navbar {
+    background-color: #f0f0f0;
+}
+
+.navbar-brand {
     display: none;
 }
-.lastSpan{
-    display:none;
+
+.bi {
+    border: solid #068376;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #00aaa9;
+    color: white;
+    padding: 5px;
 }
 
+.codeupdesign {
+    font-family: 'abel', sans-serif;
+    font-size: 20px;
+    margin-right: 10px;
+}
 
-    hr {
+.navbutton {
+    font-family: 'abel', sans-serif;
+    font-size: 10px;
+    margin-top: 10px;
+}
+/*END OF NAVBAR*/
+
+
+
+.main-header {
+    text-align: center;
+    margin: 1.5em;
+}
+
+/*CIRCLES⭕*/
+.circles {
+    width: 6.7em;
+    height: 6.7em;
+    line-height: 6em;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+    border: solid 5px white;
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+.circles4 {
+    display: flex;
+    justify-content: center;
+}
+
+.badge1 {
+    background-color: #e6563b;
+}
+
+.badge2 {
+    background-color: #eb9d3a;
+}
+
+.badge3 {
+    background-color: #7cb06c;
+}
+
+.badge4 {
+    background-color: #00aba9;
+}
+/*END OF CIRCLES⭕️ */
+
+
+
+.lastP {
+    font-family: 'Abel normal', sans-serif;
+    font-size: 13px;
+    margin-top: 2em;
+    margin-bottom: 2em ;
+}
+
+.lastSpan {
+    font-family: 'Abel normal', sans-serif;
+    font-size: 13px;
+    margin-top: 2em;
+    margin-bottom: 2em ;
+}
+
+     /*make this lorem-p specific👇*/
+    /*.lorem-p {*/
+        /*    !*display: flex;*!*/
+        /*    !*justify-content: center;*!*/
+        /*color: #66696b;*/
+        /*    font-family: 'Abel', sans-serif;*/
+        /*    font-size: 10px;*/
+        /*}*/
+    /*}*/
+
+
+/*START OF BIG PICTURES*/
+.random-pictures {
+    width: 90vw;
+    height: 80vh;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border: solid 6px #e6e6e6;
+}
+/*END OF BIG PICTURES*/
+
+
+
+/*TEXT UNDER BIG PICTURES*/
+.alt-p {
+    color: #66696b;
+    font-family: 'Abel', sans-serif;
+    font-size: 10px;
+    margin-top: 5px;
+}
+/*TEXT UNDER BIG PICTURES*/
+
+
+
+/*ICONS FOR PICTURES🟢*/
+.rounded-pill {
+    /*display: flex;*/
+    color: black;
+    font-family: 'Anton', sans-serif;
+    margin: 2px;
+}
+
+.pill1 {
+background-color: #00aba9 ;
+
+}
+
+.pill2 {
+    background-color: #7cb06c;
+}
+
+.pill3 {
+    background-color: #eb9d3a;
+}
+
+.pill4 {
+    background-color: #e6563b;
+}
+/*END OF ICONS FOR PICTURES🟢*/
+
+
+/*HIDDEN STUFF FOR MOBILE 📱📱📱📱📱📱📱📱📱📱📱📱📱*/
+@media screen and (min-width: 320px) and (max-width: 1020px ){
+    /*NONE DISPLAYERS*/
+    .sidebar {
         display: none;
     }
-    .main-header {
-        text-align: center;
-        margin: 1.5em;
-    }
-
-    .navbar {
-        background-color: #f0f0f0;
-    }
-
-    .navbar-brand {
-        display: none;
-    }
-
-    .bi {
-        border: solid #068376;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        background-color: #00aaa9;
-        color: white;
-        padding: 5px;
-    }
-
-    /*CIRCLES⭕*/
-    .circles {
-        width: 6.7em;
-        height: 6.7em;
-        line-height: 6em;
-        border-radius: 50%;
-        font-size: 12px;
-        text-align: center;
-        border: solid 5px white;
-        color: white;
-        font-family: 'Anton', sans-serif;
-    }
-
-    /*.first2 {*/
-    /*    display: flex;*/
-    /*    flex-wrap: wrap;*/
-    /*    justify-content: center;*/
-
-
-    /*}*/
-
-    /*.second2 {*/
-    /*    display: flex;*/
-    /*    flex-wrap: wrap;*/
-    /*    justify-content: center;*/
-
-    /*}*/
-
-    .badge1 {
-        background-color: #e6563b;
-
-
-    }
-
-    .badge2 {
-        background-color: #eb9d3a;
-
-    }
-
-    .badge3 {
-        background-color: #7cb06c;
-
-    }
-
-    .badge4 {
-        background-color: #00aba9;
-
-
-    }
-    /*END OF CIRCLES⭕️ */
-
-    /* make this <p> specific👇*/
-    /*p {*/
-    /*    !*display: flex;*!*/
-    /*    !*justify-content: center;*!*/
-    /*    color: #66696b;*/
-    /*    font-family: 'Abel', sans-serif;*/
-    /*    font-size: 10px;*/
-    /*}*/
-
-    .random-pictures {
-        width: 90vw;
-        height: 80vh;
-        margin: auto;
-    }
-
-    img {
-        max-width: 100%;
-        max-height: 100%;
-        border: solid 6px #e6e6e6;
-
-    }
-
-    .alt-p {
-        /*display: flex;*/
-        /*justify-content: left;*/
-
-        color: #66696b;
-        font-family: 'Abel', sans-serif;
-        font-size: 10px;
-    }
-
-
-    /*ICONS FOR PICTURES🟢*/
-    .rounded-pill {
-        /*display: flex;*/
-        color: black;
-        font-family: 'Anton', sans-serif;
-
-    }
-
-    .pill1 {
-        background-color: #e6563b;
-
-    }
-
-    .pill2 {
-        background-color: #eb9d3a;
-
-    }
-
-    .pill3 {
-        background-color: #7cb06c;
-
-    }
-
-    .pill4 {
-        background-color: #00aba9;
-
-    }
-    /*END OF ICONS FOR PICTURES🟢*/
-@media screen and (min-width: 600px) {
 
     .lastSpan{
         display:none;
     }
+
+    hr {
+        display: none;
+    }
+    /*NONE DISPLAYERS*/
+
+}
+/*HIDDEN STUFF FOR MOBILE 📱📱📱📱📱📱📱📱📱📱📱📱📱*/
+
+
+
+
+
+/*MEDIUM/TABLET SCREEN 768PX*/
+@media screen and (min-width: 768px) {
+
+    body {
+        background-color: #f0f0f0;
+    }
+
+/*CIRCLES*/
+.test-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.badge2 {
+    margin-right: 30px;
+}
+/*END OF CIRCLES*/
+
+
+
+ .line-1 {
+     height: 1px;
+     margin-bottom: 2em;
+     margin-top: 2em;
+     width: 75%;
+     background-color: #e6e6e6;
+ }
+
+/* START OF RANDOM PICTURES*/
+ .random-pictures {
+     display: flex;
+     justify-content: center;
+     width: 75%;
+ }
+
+ .li1 {
+     margin-right: 1em;
+ }
+
+
+
+}
+
+
+
+
+
+
+
+
+/*LAPTOP LARGE SCREEN*/
+@media screen and (min-width: 1024px) {
+
+    body {
+        background-color: #f0f0f0;
+    }
+
+    .pic-title {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .lastP {
+        font-family: 'Abel normal', sans-serif;
+        font-size: 13px;
+        margin-top: 2em;
+        margin-bottom: 2em ;
+    }
+
+    .lastSpan {
+        font-family: 'Abel normal', sans-serif;
+        font-size: 13px;
+        margin-top: 2em;
+        margin-bottom: 2em ;
+    }
+
+    .random-pictures {
+        display: flex;
+        float: left;
+        width: 50%;
+        margin-left: 8em;
+    }
+
+    .li1 {
+        margin-right: 2em;
+        margin-bottom: 5em;
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        float: right;
+        width: 35%;
+
+    }
+
+    .minibar {
+        font-size: 15px;
+        width: 40%;
+        float: left;
+        margin-left: 1em;
+
+    }
+
+    .s-pic1 {
+        width: 25%;
+        float: left;
+        margin-bottom: 2em;
+    }
+    .s-pic2 {
+        width: 25%;
+        float: left;
+        margin-bottom: 2em;
+    }
+
+    .s-pic3 {
+        float: left;
+        width: 25%;
+        height: 70px;
+    }
+
+    .lt {
+       float: left;
+        margin-top: 3em;
+        font-family: 'abel', sans-serif;
+    }
+
+    .lorem-p {
+        float: left;
+        font-family: 'abel', sans-serif;
+        width: 65%;
+        font-size: small;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1440px) {
+
+    body {
+        background-color: #f0f0f0;
+    }
+
+    .pic-title {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 3em;
+    }
+
+    .lastP {
+        font-family: 'Abel normal', sans-serif;
+        font-size: 13px;
+        margin-top: 2em;
+        margin-bottom: 2em ;
+    }
+
+    .lastSpan {
+        font-family: 'Abel normal', sans-serif;
+        font-size: 13px;
+        margin-top: 2em;
+        margin-bottom: 2em ;
+    }
+
+    .random-pictures {
+        display: flex;
+        float: left;
+        width: 45%;
+        margin-left: 11em;
+    }
+
+    .li1 {
+        margin-right: 2em;
+        margin-bottom: 5em;
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        float: right;
+        width: 35%;
+        margin-right: 3em;
+
+    }
+
+    .minibar {
+        font-size: 30px;
+        width: 40%;
+        float: left;
+        margin-left: 1em;
+
+
+    }
+
+    .s-pic1 {
+        width: 20%;
+        float: left;
+        margin-bottom: 4em;
+    }
+    .s-pic2 {
+        width: 20%;
+        float: left;
+        margin-bottom: 4em;
+    }
+
+    .s-pic3 {
+        float: left;
+        width: 20%;
+        height: 80px;
+    }
+
+    .lt {
+        float: left;
+        margin-top: 3em;
+        font-family: 'abel', sans-serif;
+    }
+
+    .lorem-p {
+        float: left;
+        font-family: 'abel', sans-serif;
+        width: 65%;
+
+    }
+
+
+
+}
+
+
+/*LARGEST SCREEN 4K*/
+@media screen and (min-width: 2560px) {
+
+    body {
+        background-color: #f0f0f0;
+    }
+
+    .pic-title {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 3em;
+    }
+
+    .lastP {
+        font-family: 'Abel normal', sans-serif;
+        font-size: 13px;
+        margin-top: 2em;
+        margin-bottom: 2em ;
+    }
+
+    .lastSpan {
+        font-family: 'Abel normal', sans-serif;
+        font-size: 13px;
+        margin-top: 2em;
+        margin-bottom: 2em ;
+    }
+
+    .random-pictures {
+        display: flex;
+        float: left;
+        width: 45%;
+        margin-left: 20em;
+    }
+
+    .li1 {
+        margin-right: 2em;
+        margin-bottom: 5em;
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        float: right;
+        width: 35%;
+        margin-right: 5em;
+
+    }
+
+    .minibar {
+        font-size: 30px;
+        width: 40%;
+        float: left;
+        margin-left: 1em;
+
+
+    }
+
+    .s-pic1 {
+        width: 15%;
+        float: left;
+        margin-bottom: 4em;
+    }
+    .s-pic2 {
+        width: 15%;
+        float: left;
+        margin-bottom: 4em;
+    }
+
+    .s-pic3 {
+        float: left;
+        width: 15%;
+        height: 95px;
+    }
+
+    .lt {
+        float: left;
+        margin-top: 3em;
+        font-family: 'abel', sans-serif;
+    }
+
+    .lorem-p {
+        float: left;
+        font-family: 'abel', sans-serif;
+        width: 65%;
+
+    }
+
+
+
 
 }
 
@@ -282,7 +630,7 @@
 /*    !*ICONS FOR PICTURES🟢*!*/
 /*    .rounded-pill {*/
 /*        display: flex;*/
-/*        color: black;*/
+/*        color: blanavbuttonck;*/
 /*        font-family: 'Anton', sans-serif;*/
 
 /*    }*/
